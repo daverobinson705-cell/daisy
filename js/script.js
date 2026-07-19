@@ -32,13 +32,3 @@ document.querySelectorAll(".nav-links a").forEach(link => {
     });
 
 });
-
-document
-    .getElementById("bookingForm")
-    .addEventListener("submit", function (e) {
-
-        e.preventDefault();
-
-        alert("Booking request submitted!");
-
-    });
